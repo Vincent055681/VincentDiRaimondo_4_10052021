@@ -156,7 +156,8 @@ a:hover {
 }
 
 .portfolio {
-    font-size: 18px;
+    font-weight: 700;
+    font-size: 22px;
     line-height: 30px;
     text-transform: initial ;
 }
@@ -782,9 +783,26 @@ h4 {
 }
 
 .bold-link {
-    font-weight: 900;
-    text-decoration: underline!important;
+    font-size: 18px;
+    padding: 18px;
+    border-radius: 200px;
+    background: black;
+    margin: 20px !important;
+    font-weight: 700;
 }
+
+.bold-link:hover {
+    background: white !important;
+    color: black !important;
+    transition: 0.3s;
+}
+
+.bold-link:hover a {
+    background: white !important;
+    color: black !important;
+    transition: 0.3s;
+}
+
 
 .bgc-white {
     background-color: #FFFFFF;
@@ -808,8 +826,8 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: white!important;
+    color: black!important;
 }
 
 .ltc-white {
